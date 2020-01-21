@@ -1,0 +1,17 @@
+{
+  "name": "bump-deps",
+  "version": "0.0.0",
+  "description": "Managing (scoped) dependencies in npm",
+  "main": "index.js",
+  "keywords": [
+    "versioning",
+    "scope"
+  ],
+  "author": "Philipp Klodt",
+  "license": "ISC",
+  "bin": "./cli.js",
+  "dependencies": {
+    "cross-spawn": "^7.0.1",
+    "read-package-json": "^2.1.1"
+  }
+}
