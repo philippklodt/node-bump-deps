@@ -1,6 +1,6 @@
 {
   "name": "bump-deps",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Managing (scoped) dependencies in npm",
   "main": "index.js",
   "keywords": [
