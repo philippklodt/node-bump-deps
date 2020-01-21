@@ -6,28 +6,28 @@
 
 Your project and some of its dependencies live in a custom npm scope:
 
-```json
+```js
 // package.json
 {
   "name": "@your-corp/your-app",
   "version": "1.0.0",
-  ...
+  // ...
   "dependencies": {
     "@your-corp/your-library": "^1.0.0",
     "@your-corp/another-library": "^1.0.0",
     // other dependencies
     "is-number": "^7.0.0"
-    ...
+    // ...
   },
   "devDependencies": {
     "@your-corp/your-tool": "^1.0.0",
     "bump-deps": "*"
-    ...
+    // ...
   },
   "scripts": {
     // run after you bump your package, but before a git tag and commit
     "version": "bump-deps"
-    ...
+    // ...
   },
 ```
 
